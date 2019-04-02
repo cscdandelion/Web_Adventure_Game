@@ -1,0 +1,21 @@
+<body>
+
+
+  <p class="hint">
+    {{hint}}
+  </p>
+  <br />
+  <br />
+  <p class="question">
+    {{question}}
+  </p>
+  <br />
+  <br />
+  
+    <ul  *ngFor="let p of options;" class="out">
+      <li><input type="button" (click)="choose(p)" value={{p}} style=" width: 380px; height: 50px; background-color:transparent; color:white" /></li>
+    </ul>
+  
+</body>
+
+

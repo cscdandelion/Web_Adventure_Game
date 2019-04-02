@@ -1,0 +1,23 @@
+
+<body>
+  
+  <div class="out">
+    <ul>
+      <li><button id="signOut" (click)="logout()">Sign out</button></li>
+      <li><button id="save" (click)="save()">Save</button></li>
+      <li><button id="rank" (click)="rank()">Rank</button></li>
+    </ul>
+  </div>
+
+  <p id="pH">
+    {{hint}}
+  </p>
+
+  <div *ngFor="let p of options;let i = index " class="homePro">
+    <ul>
+      <li class="doors"><input class="choice" type="button" (click)="choose(p,i)" value={{p}} /></li>
+    </ul>
+
+  </div>
+
+</body>

@@ -1,0 +1,94 @@
+
+body {
+  position: absolute;
+  padding-top: 0;
+  padding-right: 1500px;
+  padding-bottom: 880px;
+  background-image: url(../../assets/castle-_1.jpg);
+  font-size: 2em;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+#signOut {
+  color:white;
+  border: outset;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  background-color:transparent;
+  font-weight: bold;
+}
+
+.out {
+  margin-top: 5%;
+  margin-left: 1300px;
+  position: absolute;
+}
+  .out li {
+    list-style-type: none;
+  }
+
+#save {
+  background-color:transparent;
+  color: white;
+  margin-top: 26%;
+  font-weight: bold;
+  font-size: 18px;
+  border: outset;
+  width: 120px;
+  height: 40px;
+}
+#rank {
+  color: white;
+  border: outset;
+  width: 120px;
+  height: 40px;
+  font-size: 18px;
+  background-color: transparent;
+  font-weight: bold;
+  margin-top: 20%;
+}
+
+.hint {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  margin-top: 1%;
+  margin-left: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.question {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  margin-top: 2%;
+  margin-left: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homePro {
+  position: relative;
+  padding-left: 50px;
+}
+
+.btn {
+  margin-top: 60px;
+  padding: 5px;
+  color: white;
+  border: 0;
+  font-weight: bold;
+  font-size: 20px;
+  background-color:transparent;
+}
+  .btn li {
+    list-style-type: none;
+  }
+
+.choice {
+  background-color: transparent;
+  width:600px;
+  height: 40px;
+}
+
+

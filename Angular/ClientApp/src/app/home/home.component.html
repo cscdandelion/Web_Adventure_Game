@@ -1,0 +1,95 @@
+<head>
+ 
+  <script src="https://code.jquery.com/jquery-3.3.1.js"
+          integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+          crossorigin="anonymous"></script>
+  <style>
+    #showP {
+      width: 180px;
+      background-color: black;
+      font-weight: bold;
+      color: darkred;
+      position: absolute;
+      bottom: 40%;
+      border: outset;
+      margin-left:620px
+    }
+
+    #out {
+      width: 180px;
+      background-color: black;
+      font-weight: bold;
+      color: darkred;
+      position: absolute;
+      border: outset;
+      bottom: 4%;
+      margin-left: 620px
+    }
+
+    .background {
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      font-size: 25px;
+      padding-right:100px;
+      position:absolute;
+      padding-top:13%
+    }
+
+    body {
+      position: absolute;
+      padding-top: 0;
+      padding-right: 1500px;
+      padding-bottom: 880px;
+      background-image: url(../../assets/Castle-night_2.jpg);
+      font-size: 2em;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+  </style>
+  
+</head>
+<body>
+  <h1 style="position:absolute; font-size:30px; padding-left:550px; color:white">
+    The Prince Adventure
+  </h1>
+  <div style="align-content:center; text-align:center">
+    <button id="showP" (click)="fade()">Start</button>
+  </div>
+
+  <div class="background">
+    <div id="div1" style="display:none; color:white">
+      <p>
+        Once upon a time, there was a princess Elizabeth who lived in a mysterious castle with lots of treasure.
+      </p>
+    </div>
+    <div id="div2" style="display:none; color:white">
+      <p>
+        She is known as the most beautiful princess of the dynasty, and one day, the princess fell in love with a prince
+      </p>
+    </div>
+    <div id="div3" style="display:none; color:white">
+      <p>
+        Unfortunately, Orca, who also loves Elizabeth, eagered to possess her, so he provoked a war and destroyed half
+      </p>
+    </div>
+    <div id="div4" style="display:none; color:white">
+      <p>
+        of the castle and made it into Dungeon. Orca imprisoned Elizabeth and threatened the prince to leave her,
+      </p>
+    </div>
+    <div id="div5" style="display:none; color:white">
+      <p>
+        otherwise he would kill her. At last, the prince left sadly.
+      </p>
+    </div>
+    <div id="div6" style="display:none; color:white">
+      <p>
+        Now, you are the prince, and you get back with your army and have a chance to rescue Elizabeth.
+      </p>
+    </div>
+    <br />
+    <br />
+    <br />
+    <button id="out" (click)="signin()" style="display:none">Sign In</button>
+  </div>
+  <!--<center><button id="out" (click)="signin()">Sign In</button></center>-->
+</body>
